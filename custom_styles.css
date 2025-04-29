@@ -3,13 +3,13 @@
 
 /* Apply base font styles to the body */
 body {
-    font-family: 'Roboto', sans-serif; /* Define Roboto como fonte principal, com fallback para sans-serif */
+    font-family: 'Roboto', sans-serif !important; /* Define Roboto como fonte principal, com fallback para sans-serif */
     line-height: 1.6; /* Melhora a legibilidade */
 }
 
 /* Target paragraphs specifically within the main content area */
 main p {
-    margin-bottom: 1.5rem; /* Aumenta o espaçamento inferior dos parágrafos (ajuste o valor conforme necessário) */
+    margin-bottom: 1.5rem !important; /* Aumenta o espaçamento inferior dos parágrafos (ajuste o valor conforme necessário) */
 }
 
 /* Opcional: Manter a fonte Playfair Display para o título principal se desejado */
@@ -26,5 +26,5 @@ main p {
 
 /* Ajuste no espaçamento dos cabeçalhos H3 para melhor separação */
 main h3 {
-    margin-top: 2rem; /* Aumenta o espaço acima dos subtópicos H3 */
+    margin-top: 2rem !important; /* Aumenta o espaço acima dos subtópicos H3 */
 }
