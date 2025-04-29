@@ -1,0 +1,30 @@
+/* Import Google Font - Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Apply base font styles to the body */
+body {
+    font-family: 'Roboto', sans-serif; /* Define Roboto como fonte principal, com fallback para sans-serif */
+    line-height: 1.6; /* Melhora a legibilidade */
+}
+
+/* Target paragraphs specifically within the main content area */
+main p {
+    margin-bottom: 1.5rem; /* Aumenta o espaçamento inferior dos parágrafos (ajuste o valor conforme necessário) */
+}
+
+/* Opcional: Manter a fonte Playfair Display para o título principal se desejado */
+/* Se o estilo do blog.css já faz isso, esta regra pode não ser necessária */
+/* h1#main-title {
+    font-family: 'Playfair Display', serif; 
+} */
+
+/* Opcional: Ajustar a fonte dos cabeçalhos H2 e H3 se desejar que usem Roboto também */
+/* main h2, main h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Exemplo: usar peso bold para cabeçalhos */
+/* } */
+
+/* Ajuste no espaçamento dos cabeçalhos H3 para melhor separação */
+main h3 {
+    margin-top: 2rem; /* Aumenta o espaço acima dos subtópicos H3 */
+}
