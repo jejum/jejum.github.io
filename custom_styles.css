@@ -110,3 +110,10 @@ main h3 {
 .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
 }
+
+#sidebarMenu {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    z-index: 1020; /* para garantir que fique sobreposta */
+  }
